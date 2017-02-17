@@ -1,0 +1,56 @@
+
+
+<ion-view title="Edit Profile">
+    <ion-content padding="'true'" class="has-header">
+        <ion-list>
+            <ion-item class="item item-button-right">Details 
+               
+
+            </ion-item>
+            <label class="item item-input">
+                <span class="input-label">First Name</span>
+                <textarea placeholder="" ng-model="first_name"></textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Last Name</span>
+                <textarea placeholder="" ng-model="last_name" > </textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">username</span>
+                <textarea placeholder="" ng-model="uname" readonly></textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">country code</span>
+                <textarea placeholder="" ng-model="countrycode"></textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Phone</span>
+                <input type="text" name="phone" placeholder="phone" ng-model="phone"> 
+            </label>    
+            <label class="item item-input">
+                <span class="input-label">Email</span>
+                <input placeholder="" ng-model="email" type="email">
+                
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Dob</span>
+                <textarea placeholder="" pattern="[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])" ng-model="dob"></textarea>
+            </label>
+            
+           <!-- <div class="button-bar">
+                <a href="#/page10" class="button button-stable button-block  icon ion-android-alarm-clock"></a>
+                <a href="#/page11" class="button button-stable button-block  icon ion-edit"></a>
+                <a href="#/page12" class="button button-stable button-block  icon ion-android-favorite"></a>
+            </div>-->
+            <div class="row">
+            <div class="col">
+            <input placeholder="" ng-model="userid" type="hidden">
+            <a ng-click="editUser(first_name,last_name,uname,countrycode,phone,email,dob,userid)" class="button button-balanced button-block  icon-left ">save</a></div>
+            <div class="col">
+            <a href="#/tab/profile" class="button button-calm button-block  icon-left ">cancel</a></div>
+            </div>
+            <!--<a ng-href="{{loggedin_phone}}" class="button button-calm button-block  icon-left ion-android-call">Call Us</a>-->
+        </ion-list>
+    </ion-content>
+</ion-view>
+ssh -o FingerprintHash=md5

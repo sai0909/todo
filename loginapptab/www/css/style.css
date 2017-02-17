@@ -1,0 +1,46 @@
+/* Empty. Add your own CSS if you like */
+/**** Common CSS ***/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.txt-white{
+color: #fff;
+}
+
+/***********************  page .html ********************/
+.bg-img-page{
+background-image: url("../img/img-bg.png");
+  background-repeat: no-repeat;
+  background-position:top;
+  background-color: #fff;
+}
+
+
+
+.logo-img-usr{
+  background-image: url("../img/logo.png");
+  width: 50px;
+}
+
+.button.button-royal.button-outline {
+    border-color: #886aea;
+    background: #886aea;
+    color: #fff;
+}
+
+.button.button-balanced.button-outline {
+    border-color: #33cd5f;
+    background: #33cd5f;
+    color: #fff;
+}
+
+
+/***************** Login HTml *************/
+
+.fb_btn{
+  background-color:#3b5998;
+  color: #fff;
+}

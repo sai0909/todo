@@ -1,0 +1,53 @@
+
+<ion-view title="Profile">
+    <ion-content padding="'true'" class="has-header">
+        <ion-list>
+            <ion-item class="item item-button-right">Details 
+               
+     <a href="#/page5" class="button ion-edit button-clear button-dark">&nbsp; Edit
+     
+    </a>
+
+            </ion-item>
+             <label class="item item-input" hidden>
+                <textarea placeholder="" readonly hidden> {{" "+loggedin_userid}}</textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">First Name</span>
+                <textarea placeholder="" readonly> {{" "+loggedin_fname}}</textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Last Name</span>
+                <textarea placeholder="" readonly>{{" "+loggedin_lname}} </textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">username</span>
+                <textarea placeholder="" readonly> {{" "+loggedin_uname}}</textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">country code</span>
+                <textarea placeholder="" readonly> {{" "+loggedin_ctcode}}</textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Phone</span>
+                <textarea placeholder="" readonly> {{" "+loggedin_ph}}</textarea>
+            </label>    
+            <label class="item item-input">
+                <span class="input-label">Email</span>
+                <textarea placeholder="" readonly> {{" "+loggedin_mail}}</textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Dob</span>
+                <textarea placeholder="" readonly> {{" "+loggedin_dobd}}</textarea>
+            </label>
+            
+           <!-- <div class="button-bar">
+                <a href="#/page10" class="button button-stable button-block  icon ion-android-alarm-clock"></a>
+                <a href="#/page11" class="button button-stable button-block  icon ion-edit"></a>
+                <a href="#/page12" class="button button-stable button-block  icon ion-android-favorite"></a>
+            </div>-->
+          <!--  <button ng-click="logout()" class="button button-balanced button-block  icon-left ion-log-out">Logout</button>-->
+            <!--<a ng-href="{{loggedin_phone}}" class="button button-calm button-block  icon-left ion-android-call">Call Us</a>-->
+        </ion-list>
+    </ion-content>
+</ion-view>
